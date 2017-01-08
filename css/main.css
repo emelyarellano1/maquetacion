@@ -5807,6 +5807,10 @@ button.close {
   .hidden-print {
     display: none !important; } }
 @impott '_variable.scss';
+* {
+  margin: 0px;
+  padding: 0px; }
+
 /*section 1*/
 .background-img {
   background-image: url("../img/parallax-1.jpg");
@@ -5855,7 +5859,7 @@ button.close {
 
 /*3*/
 /*Section 4*/
-.topos-te {
+.tipos-te {
   margin-left: 130px;
   margin-top: 60px;
   margin-bottom: 40px; }
@@ -5910,14 +5914,39 @@ button.close {
   margin-left: 280px; }
 
 /*6*/
+/*Section 7*/
+.titulo-1 {
+  margin-left: 164px;
+  margin-top: 80px;
+  position: relative;
+  display: inline-block; }
+
+.parrafo-1 {
+  text-align: center;
+  padding: 9px 66px 66px 66px; }
+
+.parrafo-2 {
+  padding: 9px 66px 0px 66px;
+  text-align: justify; }
+
+.parrafo-2-2 {
+  padding: 9px 66px 71px 66px; }
+
 .background-icon-1 {
-  background-color: #FEE66B; }
+  background-color: #FEE66B;
+  text-align: center; }
 
 .background-icon-2 {
-  background-color: #59FF0B; }
+  background-color: #59FF0B;
+  text-align: center; }
 
 .background-icon-3 {
-  background-color: #FFADC7; }
+  background-color: #FFADC7;
+  text-align: center; }
+
+/*Section 9*/
+.text-amamos {
+  padding: 0px 66px 1px 66px; }
 
 /*Section */
 .background-img-4 {
@@ -5927,7 +5956,7 @@ button.close {
   height: 800px;
   margin-left: 30px; }
 
-/*Section */
+/*Section*/
 .background-img-5 {
   background-image: url("../img/slide1.jpg");
   background-repeat: no-repeat;

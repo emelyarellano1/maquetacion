@@ -1,3 +1,7 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
 /*section 1*/
 .background-img {
 	background-image: url("../img/parallax-1.jpg");
@@ -50,7 +54,7 @@
 /*3*/
 
 /*Section 4*/
-.topos-te{
+.tipos-te{
 	margin-left: 130px;
 	margin-top: 60px;
 	margin-bottom: 40px;
@@ -84,6 +88,7 @@
 	margin-left: -30px;
 }
 /*5*/
+
 /*Seccion 6*/
 .background-img-3{
 	background-image: url("../img/parallax-2.jpg");
@@ -104,21 +109,47 @@
 .sub-titulo-2-2 {
 	font-size: 100px;
 	color: #fff;
-	line-height: 104px;
+	line-height: 104px; 
 	margin-left: 280px;
 }
 /*6*/
 
-
+/*Section 7*/
+.titulo-1{
+	margin-left: 164px;
+	margin-top: 80px;
+	position: relative;
+	display:inline-block;
+}
+.parrafo-1{
+	text-align: center;
+	padding: 9px 66px 66px 66px;
+}
+.parrafo-2{
+	padding: 9px 66px 0px 66px;
+	text-align: justify;
+}
+.parrafo-2-2{
+	padding: 9px 66px 71px 66px;
+}
 .background-icon-1{
 	background-color: #FEE66B;
+	text-align: center;
 }
 .background-icon-2{
 	background-color: #59FF0B;
+	text-align: center;
 }
 .background-icon-3{
 	background-color: #FFADC7;
+	text-align: center;
 }
+
+/*Section 9*/
+.text-amamos{
+	padding: 0px 66px 1px 66px;
+}
+
 /*Section */
 .background-img-4{
 	background-image: url("../img/parallax-4.jpg");
@@ -127,7 +158,7 @@
 	height: 800px;
 	margin-left: 30px;
 }
-/*Section */
+/*Section*/
 .background-img-5{
 	background-image: url("../img/slide1.jpg");
 	background-repeat: no-repeat;
@@ -135,3 +166,4 @@
 	height: 800px;
 	margin-left: 30px;
 }
+
